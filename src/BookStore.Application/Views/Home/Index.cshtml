@@ -60,9 +60,9 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <div class="mb-2">
-                                        <a class="d-inline-block text-body font-weight-bold mb-1" href="#">@item.Name</a>
+                                        <a class="d-inline-block text-body font-weight-bold mb-1" asp-action="Detail" asp-route-id="@item.Id">@item.Name</a>
                                         <span class="d-block font-size-1">
-                                            <a class="text-inherit" href="single-product.html">@item.Category.Name - @item.Publisher.Name Yayınları</a>
+                                            <a class="text-inherit">@item.Category.Name - @item.Publisher.Name Yayınları</a>
                                         </span>
                                         <div class="d-block">
                                             <span class="h6">@item.Author.Name</span>

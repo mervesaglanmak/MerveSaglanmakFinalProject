@@ -26,3 +26,17 @@ C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Business\obj\Debug\ne
 C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.csproj.CopyComplete
 C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.dll
 C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.pdb
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Business.deps.json
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Business.dll
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Business.pdb
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Persistence.dll
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Shared.dll
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Persistence.pdb
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\bin\Debug\netcoreapp3.1\BookStore.Shared.pdb
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.csprojAssemblyReference.cache
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.AssemblyInfoInputs.cache
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.AssemblyInfo.cs
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.csproj.CoreCompileInputs.cache
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.csproj.CopyComplete
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.dll
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Business\obj\Debug\netcoreapp3.1\BookStore.Business.pdb

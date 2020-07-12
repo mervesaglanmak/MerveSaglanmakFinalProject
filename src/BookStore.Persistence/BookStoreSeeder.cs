@@ -65,22 +65,22 @@ namespace BookStore.Persistence
                 new Category
                 {
                     Id = 1,
-                    Name = "Ask",
+                    Name = "Love",
                 },
                 new Category
                 {
                     Id = 2,
-                    Name = "Politik",
+                    Name = "Politic",
                 },
                 new Category
                 {
                     Id = 3,
-                    Name = "Antropoloji",
+                    Name = "Anthropology",
                 },
                 new Category
                 {
                     Id = 4,
-                    Name = "Bilim-Kurgu",
+                    Name = "Science-Fiction",
                 },
             };
         }

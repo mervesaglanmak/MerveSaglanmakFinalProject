@@ -53,7 +53,12 @@ namespace BookStore.Application.Controllers
             viewModel.OrderCount = (await _orderService.GetOrderByUserIdAsync(userId, cancellationToken))?.OrderLines?.Count() ?? 0;
             return View(viewModel);
         }
-
+        public async Task<IActionResult> Detail(long id,CancellationToken cancellationToken)
+        {
+            var book = await _bookService.GetByIdAsync(id,default);
+            
+            return View(book);
+        }
         [HttpPost]
         public async Task<JsonResult> AddToCart(long bookId)
         {

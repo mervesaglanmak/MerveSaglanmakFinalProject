@@ -16,3 +16,12 @@ C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Shared\obj\Debug\netc
 C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.csproj.CoreCompileInputs.cache
 C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.dll
 C:\Users\emre.kaymaz\Desktop\BookStore_Final\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.pdb
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\bin\Debug\netcoreapp3.1\BookStore.Shared.deps.json
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\bin\Debug\netcoreapp3.1\BookStore.Shared.dll
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\bin\Debug\netcoreapp3.1\BookStore.Shared.pdb
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.csprojAssemblyReference.cache
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.AssemblyInfoInputs.cache
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.AssemblyInfo.cs
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.csproj.CoreCompileInputs.cache
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.dll
+C:\Users\emre.kaymaz\Desktop\BookStore_Final\MerveSaglanmakFinalProject\src\BookStore.Shared\obj\Debug\netcoreapp3.1\BookStore.Shared.pdb
