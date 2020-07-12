@@ -75,7 +75,7 @@
                       <!-- Nav -->
                       <nav class="js-mega-menu navbar navbar-expand-lg">
                       <!-- Logo -->
-                      <a class="navbar-brand" asp-action="Index" aria-label="Front">
+                      <a class="navbar-brand" aria-label="Front" asp-controller="Home" asp-action="Index">
                           <img src="~/svg/logos/logo.svg" alt="Logo">
                       
                       </a>
@@ -160,8 +160,8 @@
                     <!-- Breadcrumb -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb breadcrumb-no-gutter justify-content-sm-end mb-0">
-                            <li class="breadcrumb-item"><a asp-action="Index">Anasayfa</a></li>
-                            <li class="breadcrumb-item"><a asp-action="Index">Kitaplar</a></li>
+                            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Kitaplar</a></li>
                         </ol>
                     </nav>
                     <!-- End Breadcrumb -->
