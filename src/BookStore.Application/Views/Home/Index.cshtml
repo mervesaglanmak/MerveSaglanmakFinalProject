@@ -8,7 +8,7 @@
             <!-- Sorting -->
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6 mb-3 mb-lg-0">
-                    <span class="font-size-1 ml-1">@Model.Books.Count() kitap listeleniyor</span>
+                    <span class="font-size-1 ml-1">@Model.Books.Count() books listed</span>
                 </div>
 
                 <div class="col-lg-6 align-self-lg-end text-lg-right">
@@ -22,9 +22,9 @@
                           "dropdownAutoWidth": true,
                           "width": "auto"
                         }'>
-                                <option value="mostRecent" selected>Sırala</option>
-                                <option value="priceHighLow">Fiyat (azalan)</option>
-                                <option value="priceLowHigh">Fiyat (artan)</option>
+                                <option value="mostRecent" selected>Order By</option>
+                                <option value="priceHighLow">Price (Desc)</option>
+                                <option value="priceLowHigh">Price (Asc)</option>
                             </select>
                             <!-- End Select -->
                         </li>
@@ -37,8 +37,8 @@
                           "dropdownAutoWidth": true,
                           "width": "auto"
                         }'>
-                                <option value="alphabeticalOrderSelect1" selected>Isim (A-Z)</option>
-                                <option value="alphabeticalOrderSelect2">Isim (Z-A)</option>
+                                <option value="alphabeticalOrderSelect1" selected>Name (A-Z)</option>
+                                <option value="alphabeticalOrderSelect2">Name (Z-A)</option>
                             </select>
                             <!-- End Select -->
                         </li>
@@ -106,7 +106,7 @@
         <div class="col-lg-3">
             <form method="GET">
                 <div class="border-bottom pb-4 mb-4">
-                    <h4>Fiyat</h4>
+                    <h4>Price</h4>
 
                     <!-- Range Slider -->
                     <input class="js-ion-range-slider" type="text"
@@ -134,7 +134,7 @@
                 </div>
 
                 <div class="border-bottom pb-4 mb-4">
-                    <h4>Yayın Evi</h4>
+                    <h4>Publisher</h4>
                     @foreach (var item in Model.Publishers)
                     {
                         <!-- Checkboxes -->
@@ -157,7 +157,7 @@
                     <!-- End Checkboxes -->
                 </div>
                 <div class="border-bottom pb-4 mb-4">
-                    <h4>Kategori</h4>
+                    <h4>Category</h4>
                     @foreach (var item in Model.Categories)
                     {
                         <!-- Checkboxes -->
@@ -181,7 +181,7 @@
                     <!-- End Checkboxes -->
                 </div>
                 <div class="border-bottom pb-4 mb-4">
-                    <h4>Yazar</h4>
+                    <h4>Author</h4>
                     @foreach (var item in Model.Authors)
                     {
                         <!-- Checkboxes -->
@@ -204,7 +204,7 @@
                     <!-- End Checkboxes -->
                 </div>
                 <div class="border-bottom pb-4 mb-4">
-                    <h4>Beğenilme</h4>
+                    <h4>Rating</h4>
                     @foreach (var item in Model.Books.OrderBy(x => x.Rating).GroupBy(x => x.Rating))
                     {
                         <!-- Checkboxes -->

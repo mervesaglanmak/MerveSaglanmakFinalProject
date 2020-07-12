@@ -33,36 +33,21 @@
                                         </div>
 
                                         <div class="text-body font-size-1 mb-1">
-                                            <span>Yazar:</span>
+                                            <span>Author:</span>
                                             <span>@item.Book.Author.Name</span>
                                         </div>
                                         <div class="text-body font-size-1 mb-1">
-                                            <span>Yayın Evi:</span>
+                                            <span>Puclisher:</span>
                                             <span>@item.Book.Publisher.Name</span>
                                         </div>
                                         <div class="text-body font-size-1 mb-1">
-                                            <span>Kategori:</span>
+                                            <span>Category:</span>
                                             <span>@item.Book.Category.Name</span>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3">
                                         <div class="row">
-                                            <div class="col-auto">
-                                                <select class="custom-select custom-select-sm w-auto mb-3">
-                                                    <option value="quantity1">1</option>
-                                                    <option value="quantity2">2</option>
-                                                    <option value="quantity3">3</option>
-                                                    <option value="quantity4">4</option>
-                                                    <option value="quantity5">5</option>
-                                                    <option value="quantity6">6</option>
-                                                    <option value="quantity7">7</option>
-                                                    <option value="quantity8">8</option>
-                                                    <option value="quantity9">9</option>
-                                                    <option value="quantity10">10</option>
-                                                </select>
-                                            </div>
-
                                             <div class="col-auto">
                                                 <a class="d-block text-body font-size-1 mb-1 remove-item" data-id="@item.Id" href="javascript:;">
                                                     <i class="far fa-trash-alt text-hover-primary mr-1"></i>
@@ -88,7 +73,7 @@
                 }
 
                 <div class="d-sm-flex justify-content-end">
-                    <a class="font-weight-bold" href="classic.html">
+                    <a class="font-weight-bold" asp-action="Index">
                         <i class="fas fa-angle-left fa-xs mr-1"></i>
                         Continue shopping
                     </a>
@@ -108,9 +93,9 @@
 
                     <div class="border-bottom pb-4 mb-4">
                         <div class="media align-items-center mb-3">
-                            <span class="d-block font-size-1 mr-3">Item subtotal (2)</span>
+                            <span class="d-block font-size-1 mr-3">Item subtotal (@Model.Order.OrderLines.Count)</span>
                             <div class="media-body text-right">
-                                <span class="text-dark font-weight-bold">$73.98</span>
+                                <span class="text-dark font-weight-bold">@Model.Order.TotalPrice</span>
                             </div>
                         </div>
 
@@ -134,77 +119,23 @@
                             </div>
                         </div>
                         <!-- End Checkbox -->
-                        <!-- Checkbox -->
-                        <div class="card shadow-none">
-                            <div class="card-body p-0">
-                                <div class="custom-control custom-radio d-flex align-items-center small">
-                                    <input type="radio" class="custom-control-input" id="deliveryRadio2" name="deliveryRadio">
-                                    <label class="custom-control-label ml-1" for="deliveryRadio2">
-                                        <span class="d-block font-size-1 font-weight-bold mb-1">$7.99 - Express delivery</span>
-                                        <span class="d-block text-muted">Shipment may take 2-3 business days.</span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Checkbox -->
                     </div>
 
-                    <div class="media align-items-center mb-3">
-                        <span class="d-block font-size-1 mr-3">Estimated tax</span>
-                        <div class="media-body text-right">
-                            <span class="text-dark font-weight-bold">--</span>
-                        </div>
-                    </div>
 
                     <div class="media align-items-center mb-3">
                         <span class="d-block font-size-1 mr-3">Total</span>
                         <div class="media-body text-right">
-                            <span class="text-dark font-weight-bold">$73.98</span>
+                            <span class="text-dark font-weight-bold">@Model.Order.TotalPrice</span>
                         </div>
                     </div>
 
                     <div class="row mx-1">
                         <div class="col px-1 my-1">
-                            <a class="btn btn-primary btn-block btn-pill transition-3d-hover" href="checkout.html">Checkout</a>
-                        </div>
-                        <div class="col px-1 my-1">
-                            <button type="submit" class="btn btn-soft-warning btn-block btn-pill transition-3d-hover">
-                                <img src="../../assets/img/logos/paypal.png" width="70" alt="PayPal logo">
-                            </button>
+                            <a class="btn btn-primary btn-block btn-pill transition-3d-hover checkOut" asp-controller="Home" asp-action="Index">Checkout</a>
                         </div>
                     </div>
                 </div>
                 <!-- End Order Summary -->
-                <!-- Accordion -->
-                <div id="shopCartAccordion" class="accordion card shadow-soft mb-4">
-                    <!-- Card -->
-                    <div class="card rounded">
-                        <div class="card-header card-collapse" id="shopCartHeadingOne">
-                            <h3 class="mb-0">
-                                <a class="btn btn-link btn-block card-btn font-weight-bold collapsed" href="javascript:;" role="button"
-                                   data-toggle="collapse"
-                                   data-target="#shopCartOne"
-                                   aria-expanded="false"
-                                   aria-controls="shopCartOne">
-                                    Promo code?
-                                    <i class="far fa-question-circle text-body ml-1" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Promo code" data-content="Valid on full priced items only. Some products maybe excluded."></i>
-                                </a>
-                            </h3>
-                        </div>
-                        <div id="shopCartOne" class="collapse" aria-labelledby="shopCartHeadingOne" data-parent="#shopCartAccordion">
-                            <form class="js-validate p-4">
-                                <div class="input-group input-group-pill mb-3">
-                                    <input type="text" class="form-control" name="name" placeholder="Promo code" aria-label="Promo code">
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn btn-block btn-primary btn-pill">Apply</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- End Card -->
-                </div>
-                <!-- End Accordion -->
                 <!-- Help Link -->
                 <div class="media align-items-center">
                     <figure class="w-100 max-w-6rem mr-2">
@@ -254,5 +185,12 @@
                 })
             })
         })
+        $('.checkOut').click(function (e) {
+                        Swal.fire(
+                            'Tebrikler',
+                            'Ürünler Satın alındı!!',
+                            'success'
+                        )
+                    });
     </script>
 }
