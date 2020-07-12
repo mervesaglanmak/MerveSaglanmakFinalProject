@@ -1,0 +1,94 @@
+﻿@model BookStore.Application.Controllers.FavoriteBooksViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container space-1 space-md-2">
+    <div class="row">
+        <div class="col-12">
+            <!-- Title -->
+            <div class="d-flex justify-content-between align-items-end border-bottom pb-3 mb-7">
+                <h1 class="h3 mb-0">Beğendiğim Kitaplar</h1>
+                <span>@(Model.Books?.Count() ?? 0)</span>
+            </div>
+            <!-- End Title -->
+
+            <form>
+                @foreach (var item in Model.Books)
+                {
+                    <!-- Product Content -->
+                    <div class="border-bottom pb-5 mb-5">
+                        <div class="media">
+                            <div class="max-w-15rem w-100 mr-3">
+                                <img class="img-fluid" src="@item.Images" alt="Image Description">
+                            </div>
+                            <div class="media-body">
+                                <div class="row">
+                                    <div class="col-md-7 mb-3 mb-md-0">
+                                        <a class="h5 d-block" href="#">@item.Name</a>
+
+                                        <div class="d-block d-md-none">
+                                            <span class="h5 d-block mb-1">@item.Price</span>
+                                        </div>
+
+                                        <div class="text-body font-size-1 mb-1">
+                                            <span>Yazar:</span>
+                                            <span>@item.Author.Name</span>
+                                        </div>
+                                        <div class="text-body font-size-1 mb-1">
+                                            <span>Yayın Evi:</span>
+                                            <span>@item.Publisher.Name</span>
+                                        </div>
+                                        <div class="text-body font-size-1 mb-1">
+                                            <span>Kategori:</span>
+                                            <span>@item.Category.Name</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="row">
+                                            <div class="col-auto">
+                                                <a class="d-block text-body font-size-1 mb-1 unlike" data-id="@item.Id" href="javascript:;">
+                                                    <i class="far fa-trash-alt text-hover-primary mr-1"></i>
+                                                    <span class="font-size-1 text-hover-primary">Remove</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-4 col-md-2 d-none d-md-inline-block text-right">
+                                        <span class="h5 d-block mb-1">@item.Price ₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Product Content -->
+                }
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('.unlike').click(function (e) {
+            let itemId = $(this).data("id");
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.value) {
+                    $.post('/favorites/unMarkFavoriteBook', { bookId: itemId }, function () {
+                        location.reload();
+                    });
+                }
+            })
+        });
+    </script>
+}
