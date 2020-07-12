@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Shared\\BookStore.Shared.csproj",
+    "projectUniqueName": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Shared\\BookStore.Shared.csproj",
     "projectName": "BookStore.Shared",
-    "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Shared\\BookStore.Shared.csproj",
-    "outputPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Shared\\obj\\",
+    "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Shared\\BookStore.Shared.csproj",
+    "outputPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Shared\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

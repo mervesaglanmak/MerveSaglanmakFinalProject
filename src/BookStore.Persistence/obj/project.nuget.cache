@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Acach5t1TuQL65x+n5ekUgRtTV+6GtTzduFUtfFs6d5llaTH1Gvxf9J5SzANLMw2XMM3x0691T525puL9BOtsA==",
+  "dgSpecHash": "vUuXvgJFpOvh2KN2yVrqzK7zvaOvJoVDwcBoKqc3OFy8yeOzD7L98GFpuus3wZso4HKuHBKF1m+dQfzncTTfAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Persistence\\BookStore.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Persistence\\BookStore.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emre.kaymaz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\emre.kaymaz\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",

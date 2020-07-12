@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Persistence\\BookStore.Persistence.csproj",
+    "projectUniqueName": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Persistence\\BookStore.Persistence.csproj",
     "projectName": "BookStore.Persistence",
-    "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Persistence\\BookStore.Persistence.csproj",
-    "outputPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Persistence\\obj\\",
+    "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Persistence\\BookStore.Persistence.csproj",
+    "outputPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Persistence\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -20,8 +20,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Shared\\BookStore.Shared.csproj": {
-            "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Shared\\BookStore.Shared.csproj"
+          "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Shared\\BookStore.Shared.csproj": {
+            "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Shared\\BookStore.Shared.csproj"
           }
         }
       }

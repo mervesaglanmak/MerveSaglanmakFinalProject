@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T1PhkVMmYbvOaYz+MwYuRcQX5xKQtaKFsG5eeZI1aXs+aeN5/yY9s5MOHi+Q+KZfieW0+L/N9u8Py2mt4lUi/g==",
+  "dgSpecHash": "W+0tNNYQbJ4dvZZm3aLAYUx8JRhuXkQJu6NBNd00QNFU7tMCl/HgGNDRkA4kEqc2yavX3NsYbavxTADd9EnuAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Shared\\BookStore.Shared.csproj",
+  "projectFilePath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Shared\\BookStore.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

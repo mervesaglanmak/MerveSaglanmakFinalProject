@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Application\\BookStore.Application.csproj",
+    "projectUniqueName": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Application\\BookStore.Application.csproj",
     "projectName": "BookStore.Application",
-    "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Application\\BookStore.Application.csproj",
-    "outputPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Application\\obj\\",
+    "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Application\\BookStore.Application.csproj",
+    "outputPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Application\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -20,11 +20,11 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Business\\BookStore.Business.csproj": {
-            "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Business\\BookStore.Business.csproj"
+          "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Business\\BookStore.Business.csproj": {
+            "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Business\\BookStore.Business.csproj"
           },
-          "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Persistence\\BookStore.Persistence.csproj": {
-            "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\src\\BookStore.Persistence\\BookStore.Persistence.csproj"
+          "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Persistence\\BookStore.Persistence.csproj": {
+            "projectPath": "C:\\Users\\emre.kaymaz\\Desktop\\BookStore_Final\\MerveSaglanmakFinalProject\\src\\BookStore.Persistence\\BookStore.Persistence.csproj"
           }
         }
       }
